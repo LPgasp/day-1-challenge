@@ -1,0 +1,58 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-image: linear-gradient(to right, #b6aaf7, #2e1b80);
+  color: rgb(48, 47, 47);
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 50px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: 4px 4px 8px #4a4a4a;
+}
+
+h1 {
+  font-family: 'Smooch', cursive;
+  font-size: 200px;
+  line-height: 1;
+  margin: 0 auto;
+  color: white;
+}
+
+h2 {
+  font-family: 'Smooch', cursive;
+  font-size: 60px;
+  line-height: 0.5;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Smooch', cursive;
+  font-size: 20px;
+  line-height: 0.5;
+  margin: 0;
+}
